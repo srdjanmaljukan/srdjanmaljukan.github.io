@@ -286,3 +286,27 @@ nav ul li {
   border: 2px solid var(--primary-color);
   cursor: pointer;
 }
+
+/* Socials */
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  bottom: 50%;
+}
+
+.socicon {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Footer Section */
+
+footer {
+  background-color: var(--bg-color);
+  padding: 1.25rem;
+  text-align: center;
+  margin: 2rem 0 0;
+}
