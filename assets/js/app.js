@@ -31,3 +31,8 @@ navLink.forEach((link) => {
         ul.classList.remove("show");
     })
 })
+
+// Year for the footer
+
+const year = new Date().getFullYear();
+document.querySelector("footer .year").innerHTML = year;
