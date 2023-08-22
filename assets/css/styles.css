@@ -7,7 +7,7 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
+  --primary-color: #1b2e35;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -58,7 +58,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: var(--bg-color);
+  background-color: rgba(188, 210, 198, 0.9);
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -106,8 +106,9 @@ nav ul li {
 }
 
 .hero-img {
-  height: 37.5rem;
-  width: 37.5rem;
+  height: 30rem;
+  width: 30rem;
+  /* margin-right: 6rem; */
 }
 
 .bio {
@@ -117,7 +118,7 @@ nav ul li {
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
 
-.bio h1 {
+.bio h2 {
   margin-bottom: var(--bottom-margin);
 }
 
@@ -131,10 +132,11 @@ nav ul li {
 .more-about {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
+  text-align: justify;
 }
 
 .more-about h2 {
-  margin-bottom: var(--bottom-margin);
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -183,7 +185,6 @@ nav ul li {
 
 .project-pic {
   width: 80%;
-
 }
 
 .projects-container {
@@ -361,6 +362,10 @@ footer {
     display: block;
   }
 
+  ul.show {
+    background-color: rgba(203, 220, 211, 0.9);
+  }
+
   nav ul.show {
     transform: translateX(0);
   }
@@ -372,7 +377,7 @@ footer {
   }
 
   .hero-img {
-    height: 37.5rem;
+    height: 30rem;
     width: 30rem;
   }
 
@@ -409,7 +414,7 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero-img {
-    height: 37.5rem;
+    height: 23rem;
     width: 23rem;
   }
 
