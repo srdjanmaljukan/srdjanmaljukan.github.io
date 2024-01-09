@@ -232,6 +232,10 @@ nav ul li {
   margin: 10px;
 }
 
+.project-link, .repo-link {
+  margin-bottom: 10px;
+}
+
 /* Contact Section */
 
 .contact {
