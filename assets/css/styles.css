@@ -184,6 +184,7 @@ nav ul li {
 }
 
 .project-pic {
+  border: 1px solid black;
   width: 80%;
 }
 
@@ -232,7 +233,8 @@ nav ul li {
   margin: 10px;
 }
 
-.project-link, .repo-link {
+.project-link,
+.repo-link {
   margin-bottom: 10px;
 }
 
