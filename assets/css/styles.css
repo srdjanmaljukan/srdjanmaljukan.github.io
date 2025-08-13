@@ -33,7 +33,7 @@ ul {
   list-style-type: none;
 }
 
-a {
+/* a {
   text-decoration: none;
   color: var(--primary-color);
 }
@@ -41,6 +41,10 @@ a {
 a:hover {
   text-decoration: none;
   color: var(--secondary-color);
+} */
+
+h2 {
+  font-size: 30px;
 }
 
 body {
@@ -94,6 +98,10 @@ nav ul li {
   display: none;
 }
 
+#about, #skills, #projects {
+  padding-top: 100px;
+}
+
 /* Hero Section */
 
 .hero {
@@ -133,6 +141,8 @@ nav ul li {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
   text-align: justify;
+  max-width: 68.75rem;
+  margin: 50px auto;
 }
 
 .more-about h2 {
@@ -186,11 +196,12 @@ nav ul li {
 .project-pic {
   border: 1px solid black;
   width: 80%;
+  margin: auto;
 }
 
 .projects-container {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
 }
 
@@ -204,10 +215,10 @@ nav ul li {
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
-  height: 23rem;
+  /* height: 23rem; */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
 }
 
@@ -236,6 +247,21 @@ nav ul li {
 .project-link,
 .repo-link {
   margin-bottom: 10px;
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  transition: .4s;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  font-weight: 700;
 }
 
 /* Contact Section */
